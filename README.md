@@ -29,7 +29,7 @@ A tabela **`produtos`** contém os seguintes campos:
 
 ## 📌 Testes
 
-### 🔹 Menu (1,2,3,4 ou 5)
+### 🔹 Menu (Opções disponíveis: 1,2,3,4 ou 5)
 
 ```sh
 # certo
@@ -49,12 +49,13 @@ Digite sua opção: idjfe
 # 1 - certo
 Informe o nome do produto: Abacaxi 
 Informe a quantidade do produto: 100 
-Informe o preço do produto: 6.7 
+Informe o preço do produto: 6.7
 
 # 2 - erro (tipo errado)
 Informe o nome do produto: Banana  
 Informe a quantidade do produto: lalala (string)  
-Informe o preço do produto: lalala (string) 
+Informe o preço do produto: lalala (string)
+
 
 # 3 - erro (produto já existente)
 Informe o nome do produto: Banana  
