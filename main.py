@@ -15,7 +15,7 @@ menu()
 
 
 
-''' Testes
+''' Testes (mesmo dos que estão no READ ME do github"
 
 -> Menu (1,2,3,4 ou 5)
 
@@ -31,7 +31,7 @@ Digite sua opção: idjfe
 
 -> Criar
 # 1 - certo
-Informe o nome do produto: Abacaxi 
+Informe o nome do produto: Banana 
 Informe a quantidade do produto: 100 
 Informe o preço do produto:  6.7 
 
