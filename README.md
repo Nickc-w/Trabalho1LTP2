@@ -34,9 +34,9 @@ A tabela **`produtos`** contém os seguintes campos:
 - `create.py`: cria o banco de dados e a tabela, se ainda não existirem.
 - `insert.py`: insere novos produtos com seus respectivos atributos.
 - `listar.py`: lista todos os produtos cadastrados com seus detalhes.
-- `atualizar.py`: atualiza o preço ou a quantidade de um produto.
+- `Atualizar.py`: atualiza o preço ou a quantidade de um produto.
 - `deletar.py`: remove um produto do banco de dados.
-- `FunçõesVerificaçõesTipos.py`: contém funções auxiliares que validam se os valores inseridos são do tipo `float` ou `int`.
+- `FunçõesVerificaçaoTipos.py`: contém funções auxiliares que validam se os valores inseridos são do tipo `float` ou `int`.
 
 
 
