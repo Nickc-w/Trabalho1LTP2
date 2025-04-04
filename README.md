@@ -67,13 +67,13 @@ Digite sua opção: idjfe
 Informe o nome do produto: Abacaxi 
 Informe a quantidade do produto: 100 
 Informe o preço do produto: 6.7
-    🟢 Produto inserido ao estoque com sucesso!! ID: {id}
+    🟢 "Produto inserido ao estoque com sucesso!! ID: {id}"
 
 # 2 - erro (tipo errado)
 Informe o nome do produto: Banana  
 Informe a quantidade do produto: lalala (string)  
 Informe o preço do produto: lalala (string)
-     🔴 Mensagem retornada até o usuário digitar o tipo correto: “Digite um tipo válido!“  
+     🔴 Mensagem retornada até o usuário digitar o tipo correto: "Digite um tipo válido!"
 
 # 3 - erro (produto já existente)
 Informe o nome do produto: Banana  
@@ -102,7 +102,7 @@ Informe o preço do produto: 3.4
 Informe o [id] do produto que quer atualizar: 1 
 Informe a nova quantidade do produto que quer atualizar: 50 
 Informe o novo preço do produto que quer atualizar: 3.5
-    🟢 Quantidade e preço atualizados com sucesso!
+    🟢 "Quantidade e preço atualizados com sucesso!"
 
 # 7 - erro (tipo errado)
 Informe o [id] do produto que quer atualizar: wwef 
@@ -130,7 +130,7 @@ Informe o novo preço do produto que quer atualizar: 2.3
 ```sh
 # 10 - certo
 Informe o id do produto que deseja deletar: 1
-    🟢 Produto deletado com sucesso!!
+    🟢 "Produto deletado com sucesso!!"
 
 # 11 - erro (tipo errado)
 Informe o id do produto que deseja deletar: dwee
