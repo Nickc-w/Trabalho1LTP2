@@ -6,7 +6,6 @@ from create import cursor,conexao
 """
 
 def deletar_produto(id):
-    #from create import cursor,conexao
     
     cursor.execute("DELETE FROM produtos WHERE id = ?", (id,))
 
