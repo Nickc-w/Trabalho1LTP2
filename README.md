@@ -39,6 +39,8 @@ A tabela **`produtos`** contém os seguintes campos:
 - `FunçõesVerificaçõesTipos.py`: contém funções auxiliares que validam se os valores inseridos são do tipo `float` ou `int`.
 
 
+
+
 ## 📌 Testes
 
 ### 🔹 Menu (Opções disponíveis: 1,2,3,4 ou 5)
@@ -71,23 +73,25 @@ Informe o preço do produto: 6.7
 Informe o nome do produto: Banana  
 Informe a quantidade do produto: lalala (string)  
 Informe o preço do produto: lalala (string)
-     🔴 Mensagem retornada até o usuário digitar o tipo correto: “Digite um tipo válido! “  
+     🔴 Mensagem retornada até o usuário digitar o tipo correto: “Digite um tipo válido!“  
 
 # 3 - erro (produto já existente)
 Informe o nome do produto: Banana  
 Informe a quantidade do produto: 50 
 Informe o preço do produto: 3.5 
-     🔴 Mensagem de retornada até o usuário digitar o tipo correto: "Digite uma opção válida!  "
+     🔴 Mensagem de erro: "Produto nao inserido. Erro de integridade!! = UNIQUE constraint failed: produtos.nome" e retorna o menu novamente
 
 # 4 - erro (preço negativo)
 Informe o nome do produto: Maça  
 Informe a quantidade do produto: 50 
-Informe o preço do produto: -3.5 
+Informe o preço do produto: -3.5
+    🔴 Mensagem de erro: "Produto nao inserido. Erro de integridade!! = CHECK constraint failed: preco > 0" e retorna o menu novamente
 
 # 5 - erro (nome vazio)
 Informe o nome do produto:   
 Informe a quantidade do produto: 50 
-Informe o preço do produto: 3.4 
+Informe o preço do produto: 3.4
+    🔴 Mensagem de erro: "Informe um nome para o produto!" e retorna o menu novamente
 
 ```
 
@@ -97,22 +101,26 @@ Informe o preço do produto: 3.4
 # 6 - certo
 Informe o [id] do produto que quer atualizar: 1 
 Informe a nova quantidade do produto que quer atualizar: 50 
-Informe o novo preço do produto que quer atualizar: 3.5 
+Informe o novo preço do produto que quer atualizar: 3.5
+    🟢 Quantidade e preço atualizados com sucesso!
 
 # 7 - erro (tipo errado)
 Informe o [id] do produto que quer atualizar: wwef 
 Informe a nova quantidade do produto que quer atualizar: kscl 
-Informe o novo preço do produto que quer atualizar: iojsxaij 
+Informe o novo preço do produto que quer atualizar: iojsxaij
+    🔴 Mensagem retornada até o usuário digitar um tipo correto: "Digite um tipo valido!" 
 
 # 8 - erro (id inexistente)
 Informe o [id] do produto que quer atualizar: 5 
 Informe a nova quantidade do produto que quer atualizar: 50 
-Informe o novo preço do produto que quer atualizar: 2.3 
+Informe o novo preço do produto que quer atualizar: 2.3
+    🔴 Mensagem de erro: "Item não encontrado! Atualizaçao nao realizada" e retorna o menu novamente
 
 # 9 - erro (quantidade negativa)
 Informe o [id] do produto que quer atualizar: 1 
 Informe a nova quantidade do produto que quer atualizar: -50 
-Informe o novo preço do produto que quer atualizar: 2.3 
+Informe o novo preço do produto que quer atualizar: 2.3
+    🔴 Mensagem de erro: "Produto nao atualizado. Erro de integridade!! = CHECK constraint failed: quantidade > 0" e retorna o menu novamente
 
 ```
 
@@ -121,10 +129,16 @@ Informe o novo preço do produto que quer atualizar: 2.3
 
 ```sh
 # 10 - certo
-Informe o id do produto que deseja deletar: 1 
+Informe o id do produto que deseja deletar: 1
+    🟢 Produto deletado com sucesso!!
 
-# 11 - erro (id não existe)
-Informe o id do produto que deseja deletar: 5 
+# 11 - erro (tipo errado)
+Informe o id do produto que deseja deletar: dwee
+    🔴 Mensagem retornada até o usuário digitar um tipo correto: "Digite um tipo valido!" 
+
+# 12 - erro (id não existe)
+Informe o id do produto que deseja deletar: 5
+    🔴 Mensagem de erro: "Produto nao encontrado!!" e retorna o menu novamente
 ```
 
 
