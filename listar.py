@@ -7,7 +7,6 @@ from create import cursor
 """
 
 def listar_produtos():
-    #from create import cursor
     cursor.execute("SELECT * FROM produtos") 
     itens = cursor.fetchall()
     for i in itens:
