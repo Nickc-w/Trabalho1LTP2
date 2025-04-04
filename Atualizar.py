@@ -7,7 +7,6 @@ from create import cursor,conexao,sqlite3
 """
 
 def Atualizar(id,nova_quantidade,novo_preco):
-    #from create import cursor,conexao,sqlite3
 
     try:
         cursor.execute("UPDATE produtos SET quantidade = ?, preco = ? WHERE id = ?", (nova_quantidade,novo_preco,id))
