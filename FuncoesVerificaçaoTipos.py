@@ -8,7 +8,7 @@ def ConferirTipoInt(pergunta):
             return valor
        
         except ValueError:
-            print("Digite um tipo valido: ")
+            print("Digite um tipo valido! ")
         
     
 def ConferirTipoFloat(pergunta):
@@ -17,4 +17,4 @@ def ConferirTipoFloat(pergunta):
             valor = float(input(pergunta)) 
             return valor 
         except ValueError:
-            print("Digite um tipo valido: ")
+            print("Digite um tipo valido! ")
