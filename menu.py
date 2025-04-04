@@ -28,7 +28,7 @@ def menu():
         try:
             opcao = int(input("Digite sua opção: "))  # Tenta pegar a opção do usuário
         except ValueError:
-            print("Digite uma opção válida! ")
+            print("Digite um tipo válido! ")
             continue  # Se houver erro (não for int), repete o laço sem chamar a função menu() novamente
 
         if opcao == 5:
