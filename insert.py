@@ -1,5 +1,5 @@
 
-from create import conexao,cursor,sqlite3 # só importar quando necessário
+from create import conexao,cursor,sqlite3 
 
 """ 
     OBJETIVO :
@@ -14,7 +14,7 @@ def CriarProduto(nome,quantidade,preco):
         conexao.commit() # salva
         print(f"Produto inserido ao estoque com sucesso!! ID: {cursor.lastrowid}")
     except sqlite3.IntegrityError as e:
-        print(f"Produto nao inserido. Erro de integridade!! = {e}") # Para evitar duplicidade,...etc
+        print(f"Produto nao inserido. Erro de integridade!! = {e}") # Para evitar duplicidade,violação do unique ou do check
 
 
     
