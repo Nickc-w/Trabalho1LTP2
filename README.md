@@ -38,11 +38,11 @@ Digite sua opção: 3
 
 # erro (opção fora das opções)
 Digite sua opção: 7
-    🔴 Mensagem de retornada até o usuário digitar uma opção correta: "Digite uma opção válida: "
+    🔴 Mensagem retornada: "Digite uma opção válida!" e retorna o menu novamente
 
 # erro (tipo errado)
 Digite sua opção: idjfe
-    🔴 Mensagem de retornada até o usuário digitar uma opção correta: "Digite uma opção válida! "
+    🔴 Mensagem retornada: "Digite uma opção válida!" e retorna o menu novamente
 
 ```
 
@@ -59,7 +59,7 @@ Informe o preço do produto: 6.7
 Informe o nome do produto: Banana  
 Informe a quantidade do produto: lalala (string)  
 Informe o preço do produto: lalala (string)
-     🔴 Mensagem de retornada até o usuário digitar uma opção correta: “Digite um tipo válido: “  
+     🔴 Mensagem retornada até o usuário digitar uma opção correta: “Digite um tipo válido: “  
 
 # 3 - erro (produto já existente)
 Informe o nome do produto: Banana  
