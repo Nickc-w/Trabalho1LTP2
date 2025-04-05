@@ -16,9 +16,10 @@ def Atualizar(id,nova_quantidade,novo_preco):
             conexao.commit()
             print("Quantidade e preço atualizados com sucesso!")
         else:
-            print("Item não encontrado! Atualizaçao nao realizada")
+            print("Item não encontrado! Atualizaçao nao realizada") # se não encontrar o produto
+            
     except sqlite3.IntegrityError as e:
-        print(f"Produto nao atualizado. Erro de integridade!! = {e}")
+        print(f"Produto nao atualizado. Erro de integridade!! = {e}") # Se a quantidade ou preço forem negativos
     
 
 
