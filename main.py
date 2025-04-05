@@ -5,7 +5,7 @@ from create import Criando
 
 """ 
     OBEJTIVO:
-    Executar o codigo (criando o BD quando executar o codigo!!), chamando menu e fazer testes
+    Executar o codigo (criando o BD e a tabela quando executar o codigo!!), chamando menu e fazer testes
 """
 
 
