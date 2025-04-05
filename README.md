@@ -29,7 +29,7 @@ A tabela **`produtos`** contém os seguintes campos:
 
  ## 📦 Módulos do Projeto
 
-- `main.py`: ponto de entrada do programa, onde o código é executado.
+- `main.py`: ponto de entrada do programa, onde o código é executado (e onde o Banco de dados e a tabela são criados).
 - `menu.py`: exibe o menu principal e direciona as ações do usuário.
 - `create.py`: cria o banco de dados e a tabela, se ainda não existirem.
 - `insert.py`: insere novos produtos com seus respectivos atributos.
