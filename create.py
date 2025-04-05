@@ -18,7 +18,7 @@ def Criando():
                CREATE TABLE IF NOT EXISTS produtos(
                     id integer primary key autoincrement,
                     nome text unique not null,
-                    quantidade integer not null check(quantidade > 0),
+                    quantidade integer not null check(quantidade > 0), 
                     preco real not null check(preco > 0) 
                )
     """)
