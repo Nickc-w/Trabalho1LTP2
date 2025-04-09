@@ -91,6 +91,8 @@ Informe o id do produto que deseja deletar: 1
 #10 - erro (id não existe)
 Informe o id do produto que deseja deletar: 5 
 
+#11 - erro (tipo errado)
+Informe o id do produto que deseja deletar: dwee
 
 '''
 
