@@ -44,6 +44,7 @@ Informe o preço do produto:  lalala (string)
 Informe o nome do produto: Banana # que ja existe! 
 Informe a quantidade do produto: 50 
 Informe o preço do produto:  3.5 
+# ("banana", "BANANA", "    Banana") = iguais
 
 # 4 - erro
 Informe o nome do produto: Maça  
