@@ -73,13 +73,13 @@ Informe o preço do produto: 6.7
 Informe o nome do produto: Maça
 Informe a quantidade do produto: lalala (string)  
 Informe o preço do produto: lalala (string)
-     🔴 Mensagem retornada até o usuário digitar o tipo correto: "Digite um tipo válido!"
+    🔴 Mensagem retornada até o usuário digitar o tipo correto: "Digite um tipo válido!"
 
 # 3 - erro (produto com nome já existente)
 Informe o nome do produto: Banana  
 Informe a quantidade do produto: 50 
 Informe o preço do produto: 3.5 
-     🔴 Mensagem de erro: "Produto nao inserido. Erro de integridade!! = UNIQUE constraint failed: produtos.nome" e retorna o menu novamente
+    🔴 Mensagem de erro: "Produto nao inserido. Erro de integridade!! = UNIQUE constraint failed: produtos.nome" e retorna o menu novamente
 
 # 4 - erro (preço negativo)
 Informe o nome do produto: Maça  
@@ -128,7 +128,7 @@ Informe o novo preço do produto que quer atualizar: 2.3
 ### 🔹Listar produtos
 ```sh
 Digite sua opção: 2
-     🟢 Retorno = id: 1, Nome: Banana, Quantidade: 100, Preço: 6.7
+   🟢 Retorno = id: 1, Nome: Banana, Quantidade: 100, Preço: 6.7
 ```
 
 
