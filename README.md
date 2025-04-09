@@ -125,6 +125,13 @@ Informe o novo preço do produto que quer atualizar: 2.3
 ```
 
 
+### 🔹Listar produtos
+```sh
+Digite sua opção: 2
+     🟢 Retorno = id: 1, Nome: Banana, Quantidade: 100, Preço: 6.7
+```
+
+
 ### 🔹Deletar produto
 
 ```sh
@@ -140,6 +147,8 @@ Informe o id do produto que deseja deletar: dwee
 Informe o id do produto que deseja deletar: 5
     🔴 Mensagem de erro: "Produto nao encontrado!!" e retorna o menu novamente
 ```
+
+
 
 
 
