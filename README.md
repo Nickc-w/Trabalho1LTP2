@@ -80,6 +80,8 @@ Informe o nome do produto: Banana
 Informe a quantidade do produto: 50 
 Informe o preço do produto: 3.5 
     🔴 Mensagem de erro: "Produto nao inserido. Erro de integridade!! = UNIQUE constraint failed: produtos.nome" e retorna o menu novamente
+    📌 o código ainda evita duplicatas com variações de maiúsculas/minúsculas ou espaços 
+    📌 ("banana", "BANANA", "    Banana") = iguais
 
 # 4 - erro (preço negativo)
 Informe o nome do produto: Maça  
