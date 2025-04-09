@@ -79,6 +79,11 @@ Informe a nova quantidade do produto que quer atualizar: -50 (negativo)
 Informe o novo preço do produto que quer atualizar: 2.3 
 
 
+-> Listar produtos
+Digite sua opção: 2
+Retorno = id: 1, Nome: Banana, Quantidade: 100, Preço: 6.7
+
+
 -> Deletar
 #9 - certo
 Informe o id do produto que deseja deletar: 1 
