@@ -15,7 +15,7 @@ menu()
 
 
 
-''' Testes (mesmo dos que estão no READ ME do github"
+''' Testes (mesmos dos que estão no READ ME do github)
 
 -> Menu (1,2,3,4 ou 5)
 
