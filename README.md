@@ -47,7 +47,7 @@ A tabela **`produtos`** contém os seguintes campos:
 
 ```sh
 # certo
-Digite sua opção: 3
+Digite sua opção: 1
     🟢
 
 # erro (opção fora das opções)
