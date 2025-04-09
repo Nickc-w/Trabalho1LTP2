@@ -70,7 +70,7 @@ Informe o preço do produto: 6.7
     🟢 "Produto inserido ao estoque com sucesso!! ID: {id}"
 
 # 2 - erro (tipo errado)
-Informe o nome do produto: Banana  
+Informe o nome do produto: Maça
 Informe a quantidade do produto: lalala (string)  
 Informe o preço do produto: lalala (string)
      🔴 Mensagem retornada até o usuário digitar o tipo correto: "Digite um tipo válido!"
