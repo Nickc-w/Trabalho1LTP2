@@ -20,7 +20,7 @@ menu()
 -> Menu (1,2,3,4 ou 5)
 
 # certo
-Digite sua opção: 3
+Digite sua opção: 1
 
 # erro (opção fora das opções)
 Digite sua opção: 7
