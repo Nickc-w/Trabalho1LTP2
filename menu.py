@@ -37,7 +37,7 @@ def menu():
             break  # Sai do laço e termina o programa
 
         elif opcao == 1: # Criar
-            nome = input("Informe o nome do produto: ")
+            nome = input("Informe o nome do produto: ").lowe()
             if not nome == '':
                 CriarProduto(nome, ConferirTipoInt("Informe a quantidade do produto: "), ConferirTipoFloat("Informe o preço do produto: "))
             else:
