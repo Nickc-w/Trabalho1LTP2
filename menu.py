@@ -37,8 +37,8 @@ def menu():
             break  # Sai do laço e termina o programa
 
         elif opcao == 1: # Criar
-            nome = input("Informe o nome do produto: ").strip().lower()
-            if not nome == '':
+            nome = input("Informe o nome do produto: ").strip().lower() # Tira os espaços e deixa tudo minusculo
+            if not nome == '': # Se o nome for vazio = pessoa aperta enter sem querer
                 CriarProduto(nome, ConferirTipoInt("Informe a quantidade do produto: "), ConferirTipoFloat("Informe o preço do produto: "))
             else:
                 print("Informe um nome para o produto!")
