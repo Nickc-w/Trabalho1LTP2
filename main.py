@@ -36,7 +36,7 @@ Informe a quantidade do produto: 100
 Informe o preço do produto:  6.7 
 
 #2 - erro (tipo errado)
-Informe o nome do produto: Banana  
+Informe o nome do produto: Maça
 Informe a quantidade do produto: lalala (string)  
 Informe o preço do produto:  lalala (string) 
 
